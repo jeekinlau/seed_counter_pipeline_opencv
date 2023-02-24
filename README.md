@@ -23,3 +23,8 @@ Details: the script will then connect to your DSLR, snap a photo, detect the 4 c
 
 ![](resources/Rplot.jpeg)
 
+The generated report will give you a good idea if anything went wrong. Objects counted are denoted with a red dot. sometimes you will see one red dot and two objects, that is because the watershed algorithm was not able to differentiate the two.
+
+The accuracy from real world counted to actual is quite high at R-squared higher than 0.99
+
+![](resources/accuracy.jpg)
