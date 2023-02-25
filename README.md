@@ -13,10 +13,14 @@ A camera mounted on top of a platform such that a 90 degree down angle (dont wor
 - digiCamControl (open source digital DSLR controlling software) [link to website](https://digicamcontrol.com/)
 - R with dependencies (ggplot2, ggpubr, knitr, gridExtra, magick)
 ```
-# install with these following lines
+# install with these following line
 install. packages(c("ggplot2", "ggpubr,"knitr","gridExtra","magick"))
 ```
 - python with dependencies (imutils, skimage, cv2, numpy, scipy)
+```
+# install with the following line
+pip install imutils skimage opencv scikit-image opencv-python numpy scipy
+```
 
 ## The pipeline
 - clone the repository
