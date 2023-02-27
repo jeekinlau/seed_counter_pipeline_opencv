@@ -55,3 +55,26 @@ This pipeline does everthing above and plus it counts the length and width of ev
  - remove 4 point transform to speed up counts
  - no aruco markers
  - add length and width
+
+
+
+
+
+ # Parameters that may need changing
+## Segmentation 
+Depending on if a light box is used, the segmentation steps may need altering." May need to alter 175 to another number.
+```
+thresh = cv2.threshold(blur, 175, 255, cv2.THRESH_BINARY )[1]
+```
+
+## Dust filter
+Depending on how high resolution your camera is, and depending on how clean the sample you are measuring is, you can set the threshold of size of contour you want to count. Objects with areas smaller than this will not be counted.
+
+```
+dust_thresh = 100.0
+```
+## Watershed algorithm peak min distances
+The min_distance arguement is the distance you want between peaks in the watershed algorithm. This is HIGHLY dependent on size and shape of object you are counting. 15 is just the size that works well for seeds in my case.
+```
+localMax = peak_local_max(D, indices=False, min_distance=15, labels=thresh)
+```
