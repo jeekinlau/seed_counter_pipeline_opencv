@@ -40,6 +40,14 @@ The accuracy from real world counted to actual is quite high at R-squared higher
 
 ![](resources/accuracy.jpg)
 
+## Instructions on aruco markers
+The aruco.docx has the aruco markers in the four corners. After printing, make sure the edges of the markers is exactly half a inch by half inch. The script is currently written in such a way that the physical world reference size of these aruco markers is hard-coded as half an inch. 
+
+
+
+
+
+
 ## Other pipelines (easily implemented pipelines for future or pending)
  - remove 4 point transform to speed up counts
  - no aruco markers
