@@ -44,6 +44,9 @@ The accuracy from real world counted to actual is quite high at R-squared higher
 The aruco.docx has the aruco markers in the four corners. After printing, make sure the edges of the markers is exactly half a inch by half inch. The script is currently written in such a way that the physical world reference size of these aruco markers is hard-coded as half an inch. 
 
 
+## pipeline including length and width
+This pipeline does everthing above and plus it counts the length and width of everything detected in picture. The output is pictures and a csv that contains area, length and width. (Caveat: do not use this with banana shaped objects as the function fits the best rectangle around each contour).
+![](resources/contours.jpg)
 
 
 
