@@ -1,5 +1,8 @@
 # seed_counter_pipeline_opencv
-This is a collection of open source scripts and tools for using a camera to detect number of seeds on a sheet of paper. The tool uses a watershedding algorithm as to try to count seeds that are touching.    
+This is a collection of open source scripts and tools for using a camera to detect number of seeds on a sheet of paper. The tool uses a watershedding algorithm as to try to count seeds that are touching. 
+
+
+If you use this pipeline or parts of this pipeline, please cite this repository: https://github.com/jeekinlau/seed_counter_pipeline_opencv 
 
 ## The setup
 A camera mounted on top of a platform such that a 90 degree down angle (dont worry if it is perfect 90 degrees a four-point transformation fixes any deviations)
@@ -36,3 +39,8 @@ The generated report will give you a good idea if anything went wrong. Objects c
 The accuracy from real world counted to actual is quite high at R-squared higher than 0.99
 
 ![](resources/accuracy.jpg)
+
+## Other pipelines (easily implemented pipelines for future or pending)
+ - remove 4 point transform to speed up counts
+ - no aruco markers
+ - add length and width
