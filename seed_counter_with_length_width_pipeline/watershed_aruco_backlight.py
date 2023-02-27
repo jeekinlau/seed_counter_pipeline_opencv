@@ -35,7 +35,7 @@ def show(image,x=30,y=7):
   plt.figure(figsize=(x,y))
   plt.imshow(img)
 
-image = cv2.imread("IMG_1023.JPG")
+image = cv2.imread("temp.jpg")
 image = cv2.rotate(image,cv2.ROTATE_180)
 
 #cv2.imshow("thresh",image)
