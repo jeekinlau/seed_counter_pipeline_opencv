@@ -4,6 +4,10 @@ This is a collection of open source scripts and tools for using a camera to dete
 
 If you use this pipeline or parts of this pipeline, please cite this repository: https://github.com/jeekinlau/seed_counter_pipeline_opencv 
 
+
+# General Pipeline Diagram
+![](resources/pipeline.jpg)
+
 ## The setup
 A camera mounted on top of a platform such that a 90 degree down angle (dont worry if it is perfect 90 degrees a four-point transformation fixes any deviations)
 
@@ -80,5 +84,3 @@ localMax = peak_local_max(D, indices=False, min_distance=15, labels=thresh)
 ```
 
 
-# General Pipeline Diagram
-![](resources/pipeline.jpg)
