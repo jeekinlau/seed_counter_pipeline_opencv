@@ -6,6 +6,7 @@ If you use this pipeline or parts of this pipeline, please cite this repository:
 
 
 # General Pipeline Diagram
+In short, the pipeline takes a picture, detects, features, measures them, and then reports back a dashboard with simple statistics and a csv file with each objects' area, length, and width.
 ![](resources/pipeline.png)
 
 ## The setup
