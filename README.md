@@ -78,3 +78,7 @@ The min_distance arguement is the distance you want between peaks in the watersh
 ```
 localMax = peak_local_max(D, indices=False, min_distance=15, labels=thresh)
 ```
+
+
+# General Pipeline Diagram
+![](resources/Screenshot%202023-02-27%20180000.jpg)
