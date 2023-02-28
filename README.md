@@ -9,10 +9,10 @@ If you use this pipeline or parts of this pipeline, please cite this repository:
 ![](resources/pipeline.png)
 
 ## The setup
-A camera mounted on top of a platform such that a 90 degree down angle (dont worry if it is perfect 90 degrees a four-point transformation fixes any deviations)
+A camera mounted on top of a platform such that a 90 degree down angle (dont worry if it is perfect 90 degrees a four-point transformation fixes any deviations). Does not require a light box but we did because our rose seeds vary in color, shape, and size, and using a light box help improve the contrast between background and subject.
 
 
-![](resources/IMG_2881.jpg)
+![](resources/IMG_2889.jpg)
 
 
 # Dependencies
