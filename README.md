@@ -72,6 +72,14 @@ Depending on if a light box is used, the segmentation steps may need altering." 
 thresh = cv2.threshold(blur, 175, 255, cv2.THRESH_BINARY )[1]
 ```
 
+If you are having trouble with this step, or with any of the segmentation steps and having issues with setting the cutoff for segmentation use the helper_script_segmentation.py script. To run the helper script run the below line with arguement --image to the place of picture. This gives a GUI that helps with finding optimum setting for segmentation.
+
+```
+python helper_script_segmentation.py --image path_to_picture
+```
+
+![](./resources/Threshold_Demo.gif) 
+
 ## Dust filter
 Depending on how high resolution your camera is, and depending on how clean the sample you are measuring is, you can set the threshold of size of contour you want to count. Objects with areas smaller than this will not be counted.
 
