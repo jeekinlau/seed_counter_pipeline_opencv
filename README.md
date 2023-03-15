@@ -1,5 +1,5 @@
 # seed_counter_pipeline_opencv
-This is a collection of open source scripts and tools for using a camera to detect number of seeds on a sheet of paper. The tool uses a watershedding algorithm as to try to count seeds that are touching. 
+This is a collection of open source scripts and tools for using a camera to detect number of seeds on a sheet of paper. The tool uses a watershedding algorithm as to try to count seeds that are touching. If you would like to do simple object detection and count things that are not touching then you should use a simple contour detection approach.
 
 
 If you use this pipeline or parts of this pipeline, please cite this repository: https://github.com/jeekinlau/seed_counter_pipeline_opencv 
@@ -18,7 +18,7 @@ A camera mounted on top of a platform such that a 90 degree down angle (dont wor
 
 # Dependencies
 - Windows operating system
-- digiCamControl (open source digital DSLR controlling software) [link to website](https://digicamcontrol.com/)
+- digiCamControl (open source digital DSLR controlling software) [link to website](https://digicamcontrol.com/) check their website for [compatible camera models](https://digicamcontrol.com/cameras).  
 - R with dependencies (ggplot2, ggpubr, knitr, gridExtra, magick)
 ```
 # install with these following line
