@@ -75,7 +75,7 @@ thresh = cv2.threshold(blur, 175, 255, cv2.THRESH_BINARY )[1]
 If you are having trouble with this step, or with any of the segmentation steps and having issues with setting the cutoff for segmentation use the helper_script_segmentation.py script. To run the helper script run the below line with arguement --image to the place of picture. This gives a GUI that helps with finding optimum setting for segmentation.
 
 ```
-python .\helper_script_segmentation.py --image .\path_to_picture
+python helper_script_segmentation.py --input path_to_picture
 ```
 
 ![](./resources/Threshold_Demo.gif) 
